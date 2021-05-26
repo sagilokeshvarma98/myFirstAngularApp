@@ -1,0 +1,11 @@
+<div>
+    <div [ngClass]="changeDivCss" >
+        <p [ngClass]="changeTextCss">{{titleName}}</p>
+        <ul >
+            <li *ngFor="let x of titleContent" (click)="sendDataToParent(x)">
+                {{x}}
+            </li>
+        </ul>
+    </div>
+    
+</div>

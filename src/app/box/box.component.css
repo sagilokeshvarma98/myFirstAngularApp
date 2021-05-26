@@ -1,0 +1,40 @@
+.box{
+    background-color: rgba(0, 0, 0, 0.411);
+    float: left;
+    height: 250px;
+    width: 250px;
+    border: 2px solid rgb(14, 14, 26);
+    margin: 20px;
+}
+
+ul li{
+    list-style: none;
+    padding-left: 50px;
+    color: rgb(235, 158, 103);
+}
+
+.box:hover{
+    border: 2px solid rgb(81, 81, 214);
+}
+
+.text{
+    color: rgb(228, 228, 95);
+    margin-top: 40%;
+    text-align: center;
+}
+
+.box1{
+    background-color: rgba(51, 212, 100, 0.411);
+    float: left;
+    height: 250px;
+    width: 250px;
+    border: 2px solid rgb(14, 14, 26);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.text1{
+    color: rgb(122, 21, 84);
+    margin-top: 40%;
+    text-align: center;
+}

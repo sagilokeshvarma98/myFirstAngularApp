@@ -1,0 +1,13 @@
+
+<div [style.color]="font" [style.background-color]="background">
+    Background Color <input type="color" [(ngModel)]="background"> 
+    Font Color <input type="color" [(ngModel)]="font"> 
+    <h1>This is my First Angular Application</h1>
+    <p>{{result}}</p>
+    <app-box *ngFor="let ele of titleArray,let y=index" 
+    [titleName]='ele'
+    [titleContent]='titleContent[y]' 
+    (receivedData)="receiveDataFromChild(y,$event)">
+    </app-box>
+</div>
+
